@@ -1,3 +1,6 @@
+// Latihan bahasa pemrograman GO di Sekolah SMP ASTRA AGRO LESTARI
+// Materi : Membuat sebuah web app sederhana
+
 package main
 
 import (
