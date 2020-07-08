@@ -12,7 +12,7 @@ import (
 
 func main() {
 
- port := Getenv("PORT")
+ port := os.Getenv("PORT")
 
  http.HandleFunc("/", func (w.httpResponseWriter, r *http.Request) {
   fmt.Fprintf(w, "This is a simple app!")
